@@ -95,7 +95,7 @@ namespace UpdateApp
         {
             if (this.objUpdateManager.IsNewest)
             {
-                MessageBox.Show("当前是最新版本，不需要更新！请确认。", "提示信息", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("当前是最新版本，不需要更新！请确认。1", "提示信息", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             this.lblTips.Text = "正在下载文件，请稍等...";
